@@ -138,7 +138,7 @@ def main():
     st.markdown("""
     <div class="header-container">
         <h1>🔥 Rengoku AI Generator</h1>
-        <p>"Defenda o que você acredita com todo o seu coração!"<br>– Kyojuro Rengoku</p>
+        <p>"Se estiver se sentindo desmotivados ou sentindo que não é bom o suficiente incendeie 🔥 o seu coração💓"<br>– Kyojuro Rengoku</p>
     </div>
 """, unsafe_allow_html=True)
 
