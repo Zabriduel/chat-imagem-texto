@@ -1,0 +1,133 @@
+/* Fundo da aplicação */
+.stApp {
+    background-image: url("data:image/webp;base64,{bg_base64}");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+/* Container do conteúdo principal */
+.main .block-container {
+    background-color: rgba(26, 26, 26, 0.85);
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: #FFFFFF;
+}
+
+/* Sidebar com logo */
+[data-testid="stSidebarNav"] {
+    background-image: url("data:image/jpeg;base64,{logo_base64}");
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    background-size: 80%;
+}
+
+/* Estilos gerais */
+:root {
+    --primary: #FF6B00;
+    --secondary: #FFD700;
+    --accent: #E3170A;
+    --background: rgba(26, 26, 26, 0.9);
+    --text: #FFFFFF;
+}
+
+.stTextInput > div > div > input,
+.stTextArea > div > div > textarea {
+    background-color: rgba(30, 30, 30, 0.9) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--primary) !important;
+}
+
+.stRadio > div {
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid var(--primary);
+    color: var(--text) !important;
+}
+
+.stExpander {
+    background-color: rgba(30, 30, 30, 0.9);
+    border: 1px solid var(--primary) !important;
+}
+
+.image-container {
+    border: 3px solid var(--primary);
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(30, 30, 30, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--text) !important;
+}
+
+.stButton > button {
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    border: 2px solid var(--secondary);
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: var(--accent);
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text) !important;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.stMarkdown {
+    color: var(--text) !important;
+}
+
+.stChatMessage {
+    color: var(--text) !important;
+}
+
+.user-message {
+    color: #9ae3ff;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.assistant-message {
+    color: #ffcc00;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.assistant-message img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Centralização do cabeçalho e citação */
+.header-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.header-container h1 {
+    font-size: 3em;
+    color: var(--primary);
+}
+
+.header-container p {
+    font-style: italic;
+    font-size: 1.2em;
+    color: var(--text);
+}
