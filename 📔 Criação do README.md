@@ -11,7 +11,7 @@ Este é um chatbot de inteligência artificial criado com Streamlit, que permite
 - 💡 Interface estilizada com CSS temático (Rengoku)
 - 🔒 Uso de `.env` para armazenamento seguro das chaves de API
 
-## 📂 Estrutura de Pastas
+## 📂 Estrutura de Pastas 
 ```bash
 📦 rengoku-ai-generator/
 ├── app.py                  # Código principal da aplicação Streamlit
@@ -21,7 +21,6 @@ Este é um chatbot de inteligência artificial criado com Streamlit, que permite
 ├── .gitignore              # Ignora o .env e diretórios como venv
 ├── requirements.txt        # Dependências do projeto
 └── README.md               # Este arquivo
-
 ```
 
 ## ⚙️ Como Executar Localmente
